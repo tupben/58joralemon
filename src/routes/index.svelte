@@ -227,7 +227,7 @@
 
 	function updateState() {
 		state = state;
-		console.log(state);
+		// console.log(state);
 	}
 
 	const forwardScene = {
@@ -1141,7 +1141,7 @@
 					playEffect('train', 0.15);
 					setTimeout(function () {
 						state.story += 1;
-						console.log(state.story);
+						// console.log(state.story);
 					}, 6000);
 				}
 			}
@@ -1303,13 +1303,13 @@
 	function compareList(a, b) {
 		for (var i = 0; i < a.length; ++i) {
 			if (a[i] !== b[i]) {
-				console.log(state);
-				console.log(false);
+				// console.log(state);
+				// console.log(false);
 				return 0;
 			}
 		}
-		console.log(true);
-		console.log(state);
+		// console.log(true);
+		// console.log(state);
 		return 1;
 	}
 
@@ -1321,7 +1321,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>58 Joralemon</title>
 </svelte:head>
 
 {#if state.story < 4}
@@ -1403,6 +1403,7 @@
 
 	img {
 		width: 100%;
+		display: block;
 	}
 
 	#testing {
