@@ -22,7 +22,7 @@
 		'Fact: There is a house in Brooklyn that is not a house. The windows are blackened. No one is home. It is a New York City subway vent, disguised as a house. This is 58 Joralemon Street.';
 
 	const text2 =
-		'Not-so-Fact: There has been a service emergency on the Metropolitan Transit Authority. The entire system is on the fritz. Every subway line is experiencing severe delays. The mayor is baffled. Nobody can figure out what is going on.';
+		'Not-so-Fact: There has been a service emergency at the Metropolitan Transit Authority. The entire system is on the fritz. Every subway line is experiencing severe delays. The mayor is baffled. Nobody can figure out what is going on.';
 
 	const text3 =
 		'Except you. Your job is to enter 58 Joralemon, figure out the controls to the system, and get the trains back on track. The city is counting on you.';
@@ -1386,8 +1386,8 @@
 		left: 23%;
 		width: 59%;
 		height: 93%;
-		grid-template-columns: 30% 36% 33%;
-		grid-template-rows: 25.5% 26% 25% 23%;
+		grid-template-columns: 29.8% 36% 33%;
+		grid-template-rows: 25.5% 26% 25.5% 23%;
 		gap: 2px;
 		cursor: pointer;
 	}
