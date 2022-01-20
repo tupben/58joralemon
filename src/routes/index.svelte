@@ -4,7 +4,7 @@
 
 <script>
 	let state = {
-		scene: '2ce',
+		scene: 'Fas',
 		el: 1,
 		door: 0,
 		walk: 0,
@@ -15,7 +15,7 @@
 		keylock: 0,
 		winState: 0,
 		music: 0,
-		story: 4
+		story: 1
 	};
 
 	const text1 =
