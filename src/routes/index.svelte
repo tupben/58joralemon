@@ -1386,7 +1386,7 @@
 		left: 23%;
 		width: 59%;
 		height: 93%;
-		grid-template-columns: 29.8% 36% 33%;
+		grid-template-columns: 29.8% 36% 33.2%;
 		grid-template-rows: 25.5% 26% 25.5% 23%;
 		gap: 2px;
 		cursor: pointer;
