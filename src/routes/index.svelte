@@ -4,7 +4,7 @@
 
 <script>
 	let state = {
-		scene: 'Fas',
+		scene: '2ce',
 		el: 1,
 		door: 0,
 		walk: 0,
@@ -15,7 +15,7 @@
 		keylock: 0,
 		winState: 0,
 		music: 0,
-		story: 1
+		story: 4
 	};
 
 	const text1 =
@@ -244,12 +244,6 @@
 	};
 
 	const noTurns = [
-		'Op1',
-		'Op2',
-		'Op3',
-		'En1',
-		'En2',
-		'En3',
 		'0bu',
 		'Fas',
 		'Fbs',
@@ -265,39 +259,6 @@
 	];
 
 	let specialButtons = [
-		{
-			name: 'Op1',
-			conditions: true,
-			button: {
-				style: 'top: 0; height: 100%; left: 0;  width: 100%; cursor: pointer;',
-				click: () => {
-					state.scene = 'Op2';
-				}
-			}
-		},
-
-		{
-			name: 'Op2',
-			conditions: true,
-			button: {
-				style: 'top: 0; height: 100%; left: 0;  width: 100%; cursor: pointer;',
-				click: () => {
-					state.scene = 'Op3';
-				}
-			}
-		},
-
-		{
-			name: 'Op3',
-			conditions: true,
-			button: {
-				style: 'top: 0; height: 100%; left: 0;  width: 100%; cursor: pointer;',
-				click: () => {
-					state.scene = 'Fas';
-				}
-			}
-		},
-
 		{
 			name: 'Fas',
 			conditions: true,
@@ -1353,7 +1314,7 @@
 	}
 
 	function editkeypad(i) {
-		playEffect('keypad_buttons', 5);
+		playEffect('keypad_buttons', 1);
 		state.keypad[i] = state.keypad[i] ? 0 : 1;
 		state.keylock = compareList(state.keypad, [0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]);
 	}
