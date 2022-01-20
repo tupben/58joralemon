@@ -415,6 +415,7 @@
 				click: () => {
 					state.power = 1;
 					playEffect('power', 0.6);
+					playEffect('electric', 0.6);
 				}
 			}
 		},
@@ -1466,6 +1467,7 @@
 		position: relative;
 		width: 100%;
 		background-color: black;
+		cursor: pointer;
 	}
 
 	.text {
